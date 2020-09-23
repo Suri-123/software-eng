@@ -1,5 +1,4 @@
  int number;
- System.out.println("Welcome");
     System.out.println("Please enter a number:");
     Scanner input = new Scanner(System.in);
     number = input.nextInt();
@@ -41,7 +40,9 @@ Scanner scan = new Scanner(System.in);
             result *= num;
         }
         
-        System.out.println("Result");
+      
         System.out.println(num+"^"+p+" = "+result);
     }
 }
+
+System.out.println("Forked, Rayhana!")
