@@ -27,3 +27,20 @@ Scanner scan = new Scanner(System.in);
         System.out.println("Result: "+product);
     }
 }
+
+*/ find power
+
+ int num = 2, pr = 5;
+        long result = 1;
+        
+        
+        int i = pr;
+        for (;i != 0; --i)
+        {
+            result *= num;
+        }
+        
+      
+        System.out.println(num+"^"+p+" = "+result);
+    }
+}
